@@ -14,6 +14,4 @@ public class maxProfit {
         return maxProfit;
     }
 }
- {
-    
-}
+ 

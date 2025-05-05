@@ -10,7 +10,7 @@ public class RotateArray {
         }
     }
     
-    class Solution {
+    static class Solution {
         public int findMin(int[] nums) {
             int left = 0, right = nums.length - 1;
             

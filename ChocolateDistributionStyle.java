@@ -14,4 +14,11 @@ class Solution {
 
         return res;
     }
+    public static void main(String[] args) {
+        Solution obj = new Solution();
+        int[] nums = {1, 3, 6, 19, 20};
+        int k = 3;
+        int result = obj.minimumDifference(nums, k);
+        System.out.println("Minimum difference: " + result); // Output: Minimum difference: 2
+    }
 }

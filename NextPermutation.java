@@ -40,4 +40,13 @@ class Solution {
         nums[i] = nums[j];
         nums[j] = temp;
     }
+    public static void main(String[] args) {
+        Solution obj = new Solution();
+        int[] nums = {1, 2, 3};
+        obj.nextPermutation(nums);
+        System.out.print("Next permutation: ");
+        for (int num : nums) {
+            System.out.print(num + " ");
+        }
+    }
 }

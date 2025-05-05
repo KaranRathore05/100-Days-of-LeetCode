@@ -8,5 +8,11 @@ public class ReverseString {
             i++; j--;
         }
     }
+    public static void main(String[] args) {
+        ReverseString obj = new ReverseString();
+        char[] s = {'h', 'e', 'l', 'l', 'o'};
+        obj.reverseString(s);
+        System.out.println(s); // Output: ['o', 'l', 'l', 'e', 'h']
+    }
 }
  

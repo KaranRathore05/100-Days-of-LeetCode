@@ -16,4 +16,13 @@ class Solution {
 
         return res;
     }
+    public static void main(String[] args) {
+        Solution obj = new Solution();
+        int[] nums = {1, 2, 3, 4};
+        int[] result = obj.productExceptSelf(nums);
+        System.out.print("Product except self: ");
+        for (int num : result) {
+            System.out.print(num + " ");
+        }
+    }
 }

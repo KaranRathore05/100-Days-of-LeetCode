@@ -22,4 +22,10 @@ class Solution {
         res = Math.min(res, mid);
         return res;
     }
+    public static void main(String[] args) {
+        Solution obj = new Solution();
+        int[] nums = {2, 10, 6, 14, 5, 3};
+        int result = obj.minimumDeletions(nums);
+        System.out.println("Minimum deletions: " + result); // Output: Minimum deletions: 3
+    }
 }

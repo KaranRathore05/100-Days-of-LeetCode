@@ -1,7 +1,7 @@
 public class MergeInterval {
     import java.util.*;
 
-class Solution {
+static class Solution {
     public int[][] merge(int[][] intervals) {
         Arrays.sort(intervals, (a, b) -> a[0] - b[0]);
         List<int[]> list = new ArrayList<>();
@@ -19,5 +19,11 @@ class Solution {
         return list.toArray(new int[list.size()][]);
     }
 }
+    public static void main(String[] args) {
+        Solution obj = new Solution();
+        int[][] intervals = {{1, 3}, {2, 6}, {8, 10}, {15, 18}};
+        int[][] merged = obj.merge(intervals);
+        System.out.println("Merged intervals: " + Arrays.deepToString(merged));
+    }
 
 }

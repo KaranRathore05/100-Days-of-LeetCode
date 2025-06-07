@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class largestno {
+public class largestnumber{
     public static void main(String[] args) {
         int[] nums = {3, 30, 34, 5, 9}; // Sample input
         String result = largestNumber(nums);

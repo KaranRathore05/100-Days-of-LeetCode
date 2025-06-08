@@ -22,7 +22,7 @@ public class WildcardMatching {
     public static void main(String[] args) {
         WildcardMatching sol = new WildcardMatching();
         System.out.println(sol.isMatch("aa", "a*")); // false
-        System.out.println(sol.isMatch("aa", "*"));  // true
+        System.out.println(sol.isMatch("aaa", "*"));  // true
         System.out.println(sol.isMatch("cb", "?a")); // false
     }
 }

@@ -1,3 +1,4 @@
+import java.util.Arrays;
 
 class SetZeros{
     public void setZeroes(int[][] matrix) {
@@ -25,7 +26,7 @@ class SetZeros{
     }
 
     public static void main(String[] args) {
-        Solution sol = new Solution();
+        SetZeros sol = new SetZeros();
         int[][] matrix = {
             {1, 2, 3},
             {4, 0, 6},

@@ -1,4 +1,4 @@
-public class LonRep.Charcter {
+public class LonRepCharacter {
  
         public int characterReplacement(String s, int k) {
             int[] freq = new int[26];

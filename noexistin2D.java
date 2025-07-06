@@ -41,7 +41,7 @@ public class noexistin2D{
     }
 
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        noexistin2D solution = new noexistin2D();
         char[][] board = {
             {'A','B','C','E'},
             {'S','F','C','S'},

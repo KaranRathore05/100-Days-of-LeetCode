@@ -1,5 +1,6 @@
 
 import java.util.ArrayList;
+import java.util.List;
 public class SpiralOrder {
 
     public List<Integer> spiralOrder(int[][] matrix) {
@@ -40,7 +41,7 @@ public class SpiralOrder {
     }
 
     public static void main(String[] args) {
-        Solution sol = new Solution();
+        SpiralOrder sol = new SpiralOrder();
         int[][] matrix = {
             {1, 2, 3},
             {4, 5, 6},

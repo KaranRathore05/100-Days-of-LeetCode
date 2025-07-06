@@ -1,4 +1,4 @@
-public public class Solution {
+public class lengthOfLongestSubstring {
     public int lengthOfLongestSubstring(String s) {
         String current = "";
         int max = 0;
@@ -20,6 +20,4 @@ public public class Solution {
         return max;
     }
 }
- RemoveDuplicate {
-    
-}
+

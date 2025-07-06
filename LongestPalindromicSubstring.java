@@ -37,6 +37,4 @@ public class LongestPalindromicSubstring {
         System.out.println("Input: \"" + input2 + "\" → Output: " + longestPalindrome(input2));
     }
 }
- {
-    
-}
+ 

@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Solution {
+public class GroupAnagram {
     public List<List<String>> groupAnagrams(String[] strs) {
         Map<String, List<String>> map = new HashMap<>();
 
@@ -17,5 +17,15 @@ public class Solution {
         }
 
         return new ArrayList<>(map.values());
+    }
+
+    public static void main(String[] args) {
+        GroupAnagram sol = new GroupAnagram();
+        String[] input = {"eat", "tea", "tan", "ate", "nat", "bat"};
+        List<List<String>> result = sol.groupAnagrams(input);
+
+        for (List<String> group : result) {
+            System.out.println(group);
+        }
     }
 }

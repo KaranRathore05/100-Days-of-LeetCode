@@ -1,4 +1,4 @@
-public class Solution {
+public class AddStrings {
     public String addStrings(String num1, String num2) {
         StringBuilder result = new StringBuilder();
         int carry = 0;
@@ -20,7 +20,7 @@ public class Solution {
     }
 
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        AddStrings solution = new AddStrings();
 
         String num1 = "456";
         String num2 = "77";
@@ -28,7 +28,4 @@ public class Solution {
         String sum = solution.addStrings(num1, num2);
         System.out.println("Sum: " + sum);
     }
-}
- {
-    
 }
